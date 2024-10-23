@@ -220,4 +220,41 @@
     margin: 80px auto 60px;
     padding: 10px 22px 10px 20px;
   }
+
+
+  .u-section-1 .u-btn {
+    width: 100%; /* Asegura que todos los botones sean del mismo ancho */
+    max-width: 300px; /* Ajuste máximo de ancho */
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .u-section-1 .u-btn img {
+    width: 20px; /* Tamaño del ícono */
+    height: 20px;
+  }
+  
+  .u-section-1 .u-btn-3 {
+    background-image: none;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 20px auto 60px;
+  }
+  
+  /* Para pantallas pequeñas (móviles) */
+  @media (max-width: 575px) {
+    .u-section-1 .u-btn {
+      padding: 10px 55px;
+    }
+  
+    .u-section-1 .u-btn-3 {
+      font-weight: 700;
+      --radius: 20px;
+      margin: 80px auto 60px;
+      padding: 10px 22px;
+    }
+  }
+  
+  
 }
